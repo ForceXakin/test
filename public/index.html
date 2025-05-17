@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><body><h1>Отзывы</h1><div id='reviews'></div><script>fetch('/reviews').then(r => r.json()).then(d => { d.forEach(r => { const div = document.createElement('div'); div.innerHTML = `<strong>${r.username}</strong>: ${r.content} <em>${r.date}</em>`; document.getElementById('reviews').appendChild(div); }); });</script></body></html>

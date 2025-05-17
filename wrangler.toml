@@ -1,0 +1,7 @@
+
+name = "reviews-api"
+compatibility_date = "2023-12-01"
+[[kv_namespaces]]
+binding = "REVIEWS"
+id = "REPLACE_WITH_YOUR_KV_ID"
+preview_id = "REPLACE_WITH_YOUR_KV_ID"
